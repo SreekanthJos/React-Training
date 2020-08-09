@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import MyComponent from './MyComponent'
 import MyFunctionalComponent from './MyFunctionalComponent'
+import MyRenderElement from './MyRenderElement'
 function App() {
   return (
     <div>
@@ -11,7 +12,7 @@ function App() {
       ,
   <MyComponent/>
   <MyFunctionalComponent/>
-   
+   <MyRenderElement/>
     </div>
   );
 }
