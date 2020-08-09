@@ -2,16 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
  import App from './App';
-import MyComponent,{MyFunctionalComponent,MyRenderElement} from './MyComponent'
+
 import * as serviceWorker from './serviceWorker';
 //import MyFunctionalComponent from './MyFunctionalComponent';
 //import { MyPureComponent } from './MyPureComponent';
 
 ReactDOM.render( <React.StrictMode>
-  <App />,
-  <MyComponent/>
-  <MyFunctionalComponent/>,
-  <MyRenderElement/>
+  <App />
   </React.StrictMode>,
    document.getElementById('root'));
 
