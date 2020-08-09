@@ -1,5 +1,8 @@
 import React from 'react';
 import './App.css';
+import MyComponent from './MyComponent';
+import MyFunctionalComponent from './MyFunctionalComponent'
+import MyRenderElement from './MyRenderElement';
 
 function App() {
   return (
@@ -7,6 +10,10 @@ function App() {
       <header>
         Hello World!
       </header>
+
+    <MyComponent/>
+    <MyFunctionalComponent/>
+    <MyRenderElement/>
     </div>
   );
 }
