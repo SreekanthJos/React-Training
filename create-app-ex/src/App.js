@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import MyComponent from './MyComponent';
 
 function App() {
   return (
@@ -7,7 +8,8 @@ function App() {
       <header>
         Hello World!
       </header>
-    </div>
+    </div>,
+    <MyComponent/>
   );
 }
 
